@@ -1,0 +1,12 @@
+@media (max-width:768px){
+    header .container .search-bar{
+        max-width: 80%;
+    }
+    .cards .container .card{
+        max-width: 704px;
+        height: 248px;
+    }
+    .cards .container .card .text p{
+        margin-bottom: 40px;
+    }
+}

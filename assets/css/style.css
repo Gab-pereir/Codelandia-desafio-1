@@ -1,0 +1,79 @@
+header{
+    background-color: var(--background-secondary);
+    width: 100%;
+    height: 291px;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header .container .title{
+    margin-top: 64px;
+    margin-bottom: 48px;
+}
+
+header .container .title span{    
+    font-size: 4rem;
+    font-weight: 500;
+    color: var(--white);
+}
+
+header .container .search-bar{
+    display: flex;
+    align-items: center; 
+    width: 100%;
+    gap: 16px;
+    padding: 16px 24px;
+    border-radius: 8px;
+    border: 2px solid var(--border-color);
+    background: var(--search-bar-background);
+    margin-bottom: 64px;
+}
+
+header .container .search-bar:hover{
+    transition: all .3s;
+    background: var(--search-bar-hover);
+}
+
+header .container .search-bar span{
+    color: var(--text-color);
+}
+
+.cards .container .card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    height: 248px;
+    border-radius: 8px;
+    border: 2px solid #252529;
+    background: var(--background-secondary);
+    padding: 40px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.cards .container .card.active{
+    margin-top: 58px;
+    border: 2px solid var(--brand-color);
+    width: 100%;
+    max-width: 1216px;
+}
+
+.cards .container .card .top-card{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 27.5px;
+}
+
+.cards .container .card .text h2{
+    margin-bottom: 16px;
+}
+
+
+
